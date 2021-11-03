@@ -10,11 +10,11 @@ int fib(int n) {
     return fib(n - 1) + fib(n - 2);
 }
 
-void hello(int n)
+void witek(int n)
 {
     for(int i=0;i<n;i++)
     {
-        printf("Hello");
+        printf("Witek is a sussy baka");
     }
 }
 
@@ -34,5 +34,5 @@ int main(int argc, char** argv) {
     
     printf("%lf\n", delta_us);
 
-    hello(3);
+    witek(3);
 }
