@@ -10,6 +10,14 @@ int fib(int n) {
     return fib(n - 1) + fib(n - 2);
 }
 
+void hello(int n)
+{
+    for(int i=0;i<n;i++)
+    {
+        printf("Hello");
+    }
+}
+
 
 int main(int argc, char** argv) {
     int n = atoi(argv[1]);
@@ -25,4 +33,6 @@ int main(int argc, char** argv) {
     double delta_us = (end.tv_sec - start.tv_sec) + (end.tv_usec - start.tv_usec) / 1000000.;
     
     printf("%lf\n", delta_us);
+
+    hello(3);
 }
