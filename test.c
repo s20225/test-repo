@@ -35,4 +35,6 @@ int main(int argc, char** argv) {
     printf("%lf\n", delta_us);
 
     hello(3);
+
+     printf("delta_us is kinda sus part 2 cuz last one was deleted");
 }
