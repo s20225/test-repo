@@ -25,4 +25,7 @@ int main(int argc, char** argv) {
     double delta_us = (end.tv_sec - start.tv_sec) + (end.tv_usec - start.tv_usec) / 1000000.;
     
     printf("%lf\n", delta_us);
+    
+    printf("niedziala");
+    
 }
