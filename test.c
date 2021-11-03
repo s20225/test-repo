@@ -18,6 +18,10 @@ void hello(int n)
     }
 }
 
+void whatever() {
+    printf("whatever");
+}
+
 
 int main(int argc, char** argv) {
     int n = atoi(argv[1]);
